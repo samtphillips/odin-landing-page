@@ -9,7 +9,7 @@ body {
     justify-content: center;
 }
 
-.content {
+.content-container {
     flex-basis: 1200px;
     display: flex;
     flex-direction: column;
