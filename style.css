@@ -13,4 +13,5 @@ body {
     flex-basis: 1200px;
     display: flex;
     flex-direction: column;
+    margin: 0 48px;
 }
