@@ -30,6 +30,21 @@ body {
     background-color: #1F2937;
 }
 
+.background-action {
+    background-color: #3882F6;
+}
+
+/* Button */
+
+button {
+    cursor: pointer;
+    padding: 8px 16px;
+    border-radius: 8px;
+    color: white;
+    border: none;
+    font-size: 18px;
+}
+
 /* Header */ 
 
 .header {
@@ -61,4 +76,28 @@ body {
     text-decoration: none;
     color: #E5E7EB;
     font-size: 18px;
+}
+
+/* Hero section */
+
+.hero-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px;
+}
+
+.hero-container h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+    padding: 0;
+    margin: 0;
+}
+
+.hero-container p {
+    font-size: 18px;
+    color: #E5E7EB;
+    padding: 0;
+    margin: 0;
 }
