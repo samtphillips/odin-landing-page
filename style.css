@@ -1,23 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
+* {
+    box-sizing: border-box;
+}
+
 body {
     font-family: 'Roboto', sans-serif;
     height: 100vh;
     margin: 0;
     overflow: hidden;
     display: flex;
+    flex-direction: column;
+}
+
+.section-outer {
+    display: flex;
     justify-content: center;
 }
 
-.content-container {
-    flex-basis: 1200px;
-    display: flex;
-    flex-direction: column;
-    margin: 0 48px;
+.header, .hero-container {
+    flex-basis: 1400px;
 }
 
 
-.header, .hero-container {
+.background-dark {
     background-color: #1F2937;
 }
 
