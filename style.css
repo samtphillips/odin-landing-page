@@ -13,6 +13,8 @@ body {
     flex-direction: column;
 }
 
+/* Centering content in a flex-y way */
+
 .section-outer {
     display: flex;
     justify-content: center;
@@ -22,11 +24,13 @@ body {
     flex-basis: 1400px;
 }
 
+/* Colours */
 
 .background-dark {
     background-color: #1F2937;
 }
 
+/* Header */ 
 
 .header {
     display: flex;
