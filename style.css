@@ -34,15 +34,20 @@ body {
     background-color: #3882F6;
 }
 
+.background-light {
+    background-color: #E5E7EB;
+}
+
 /* Button */
 
 button {
     cursor: pointer;
-    padding: 8px 32px;
+    padding: 6px 32px;
     border-radius: 8px;
     color: white;
     border: none;
-    font-size: 18px;
+    font-size: 16px;
+    margin: 0;
 }
 
 /* Header */ 
@@ -83,8 +88,13 @@ button {
 .hero-container {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: stretch;
     padding: 24px;
+    gap: 16px;
+}
+
+.hero-message {
+    flex-basis: 700px;
 }
 
 .hero-container h1 {
@@ -100,4 +110,18 @@ button {
     color: #E5E7EB;
     padding: 0;
     margin: 8px 0;
+}
+
+.hero-image-container {
+    background-color: #929394;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-basis: 700px;
+    border-radius: 8px;
+}
+
+.hero-image {
+    color: #F9FAF8;
+    text-align: center;
 }
