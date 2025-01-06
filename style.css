@@ -8,7 +8,7 @@ body {
     font-family: 'Roboto', sans-serif;
     height: 100vh;
     margin: 0;
-    overflow: hidden;
+    overflow: auto;
     display: flex;
     flex-direction: column;
 }
@@ -20,7 +20,7 @@ body {
     justify-content: center;
 }
 
-.header, .hero-container, .info-container {
+.header, .hero-container, .info-container, .quote-container {
     flex-basis: 1400px;
 }
 
@@ -182,4 +182,26 @@ button {
     color: #727375;
     padding: 0;
     margin: 0;
+}
+
+
+/* Quote section */
+
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 48px 24px;
+    gap: 4px;
+}
+
+.quote {
+    text-align: left;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: light;
+    font-style: italic;
+    margin: 0;
+    padding: 0px 24px;
 }
