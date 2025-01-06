@@ -20,7 +20,7 @@ body {
     justify-content: center;
 }
 
-.header, .hero-container {
+.header, .hero-container, .info-container {
     flex-basis: 1400px;
 }
 
@@ -59,7 +59,7 @@ button {
     padding: 24px;
 }
 
-.header h2 {
+.header h3 {
     font-size: 24px;
     font-weight: 900;
     color: #F9FAF8;
@@ -124,4 +124,62 @@ button {
 .hero-image {
     color: #F9FAF8;
     text-align: center;
+}
+
+
+/* Info section */
+
+
+.info-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 24px 24px 48px 24px;
+    gap: 24px;
+}
+
+
+.info-container h2 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    padding: 0;
+    margin: 0;
+}
+
+
+.info-container ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+    flex-wrap: wrap;
+}
+
+.info-container li {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 150px;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+}
+
+.info-container li div {
+    height: 150px;
+    width: 150px;
+    border: 3px solid #3882F6;
+    border-radius: 16px;
+}
+
+.info-container li p {
+    text-align: center;
+    font-size: 14px;
+    color: #727375;
+    padding: 0;
+    margin: 0;
 }
