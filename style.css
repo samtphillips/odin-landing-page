@@ -89,7 +89,7 @@ button {
     display: flex;
     justify-content: space-between;
     align-items: stretch;
-    padding: 24px;
+    padding: 48px 24px 96px 24px;
     gap: 16px;
 }
 
