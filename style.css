@@ -20,7 +20,7 @@ body {
     justify-content: center;
 }
 
-.header, .hero-container, .info-container, .quote-container {
+.header, .hero-container, .info-container, .quote-container, .call-to-action-container {
     flex-basis: 1400px;
 }
 
@@ -48,6 +48,7 @@ button {
     border: none;
     font-size: 16px;
     margin: 0;
+    background-color: #3882F6;
 }
 
 /* Header */ 
@@ -213,4 +214,42 @@ button {
     font-weight: bold;
     margin: 0;
     padding: 0 24px;
+}
+
+
+/* Call to action section */
+
+.call-to-action-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 64px 48px;
+    padding: 48px 96px;
+    border-radius: 8px;
+    color: white;
+}
+
+.call-to-action-message {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    gap: 2px;
+}
+
+.call-to-action-message h3 {
+    padding: 0;
+    margin: 0;
+    font-size: 20px;
+}
+
+.call-to-action-message p {
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+    font-weight: lighter;
+}
+
+.call-to-action-container button {
+    border: 2px solid white;
 }
